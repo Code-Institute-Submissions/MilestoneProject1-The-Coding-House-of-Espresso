@@ -1,102 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>The Coding House of Espresso</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>The Coding House of Espresso</title>
+  </head>
 
-<body>
-    <header>       
-        <div id="logo-image">
-            <div id="logo-box">
-                <div id="logo-text">
-                    <h1> '{The Coding House of Espresso}' </h1>
-                </div>
-            </div>
+  <body>
+    <header id="logo-image">
+      <div class="container-fluid">
+        <div class="row" id="logo-box">
+          <div class="col" id="logo-text">
+            <h1>'{The Coding House of Espresso}'</h1>
+          </div>
         </div>
-
-<!--Navigation Bar--> 
-        <nav>
-            <div>
-                <ul id="menu">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#menu">Menu</a>
-                    </li>
-                    <li>
-                        <a href="#shop">Shop</a>
-                    </li>
-                        <a href="#contact">Contact</a>
-                    <li>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      </div>
     </header>
 
-<section id="home-page">
-    <div id="home-image">
-    </div>
-</section>
-
-<section id="about-page">
-    <h2>About</h2>
-    <hr>
-        <h3>Find out more about 'Coding House of Espresso'</h3>
-            <div id="about-place">
-                <div class="container-left">
-                    <h4>About Place</h4>
-                    <p>Our Espresso Bar is located at Bryggetorget 21, at very modern and attractive part of Oslo called Akker Brygge. Our place is frequently visited by both, local people and tourists. We offer to our guests the highest standard of customer service and an unforgettable coffee experience. We work with the highest class equipment and the best quality coffee beans. We hope that our place is just perfect to grab a cup of freshly brewed coffee as well as small snack and meet people in very friendly atmosphere. </p>
-                </div>
-            </div>
-            <div id="about-team">
-                <div class="container-right">
-                    <h4>About Team</h4>
-                    <p>Our Baristas with passion and commitment provide any information about the methods of brewing coffee, types of beans and roasting, as well as accessories necessary to start your coffee adventure. If you are interested in any coffee topic please feel free to come and visit us, we will be pleased to have you in our place and asnwer all questions and give away every single tip to inspire you.</p>
-                </div>
-            </div>
-</section>
-
-<section id="menu-page">
-    <h2>Menu</h2>
-    <hr>
-</section>
-
-<section id="shop-page">
-    <h2>Shop</h2>
-    <hr>
-</section>
-
-<section id="contact-page">
-    <h2>Contact</h2>
-    <hr>
-</section>
-
-<footer>
-        <ul class="social-media">
-            <h2>Follow Us</h2>
-            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a> </li>
-            <li><a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square"></i></a> </li>
-            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+    <!--Navigation Bar-->
+    <nav>
+        <ul class="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#shop">Shop</a>
+          </li>
+          <a href="#contact">Contact</a>
+          <li></li>
         </ul>
-</footer>
+    </nav>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <!--Home Page-->
+    <section id="home-page">
+      <div id="home-image">
+        <div id="cover-text">
+          <p>
+            '{ If everyone should believe in something, then we believe you will
+            have another cup of coffee }'
+          </p>
+        </div>
+      </div>
+    </section>
+
+<!--About Page-->
+    <section id="about-page">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>ABOUT</h2>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Find out more about 'Coding House of Espresso'</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h4><i class="fas fa-laptop-house"></i> About Place</h4>
+            <p>
+              Our Espresso Bar is located at Bryggetorget 21, at a very modern
+              and attractive part of Oslo called Akker Brygge. Our place is
+              frequently visited by both, local people and tourists. We offer
+              our guests the highest standard of customer service and an
+              unforgettable coffee experience. We work with the highest class
+              equipment and the best quality coffee beans. We hope that our
+              place is just perfect to grab a cup of freshly brewed coffee as
+              well as a small snack and meet people in a very friendly
+              atmosphere.
+            </p>
+          </div>
+          <div class="col">
+            <h4><i class="fas fa-user-friends"></i> About Team</h4>
+            <p>
+              Our Baristas with passion and commitment provide any information
+              about the methods of brewing coffee, types of beans and roasting,
+              as well as accessories necessary to start your coffee adventure.
+              If you are interested in any coffee topic please feel free to come
+              and visit us, we will be pleased to have you in our place and
+              answer all questions and give away every single tip to inspire
+              you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Menu Page-->
+    <section id="menu-page">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>MENU</h2>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>
+              Every day we serve freshly roasted coffee and homemade food. Just
+              drop on the way or come and spend more time with us.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h4><i class="fas fa-coffee"></i> Our Signature Beverages</h4>
+            <ul style="list-style-type: circle">
+              <li>Espresso</li>
+              <li>Double Espresso</li>
+              <li>Americano</li>
+              <li>Americano White</li>
+              <li>Cappucino</li>
+              <li>Caffe Latte</li>
+              <li>Flat White</li>
+              <li>Cortado</li>
+              <li>Caffe Mocha</li>
+              <li>Hot Chocolate</li>
+              <li>Iced Coffee</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4><i class="fas fa-utensils"></i> Our Signature Bites</h4>
+            <ul style="list-style-type: square">
+              <li>Croissant with ham and cheese</li>
+              <li>Croissant with jam and butter</li>
+              <li>Waffle with brown cheese and jam</li>
+              <li>Cinnamon roll</li>
+              <li>Muffin with blueberry</li>
+              <li>Carrot cake</li>
+              <li>Apple pie with creme fresh</li>
+              <li>Tortilla wrap with spinach and chicken</li>
+              <li>Tortilla wrap with beetroot and goat cheese</li>
+              <li>Whole wheat toast with egg and avocado</li>
+              <li>Whole wheat toast with egg and bacon</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Shop Page-->
+    <section id="shop-page">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>SHOP</h2>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>
+              Here you can purchase your local coffee beans and favorite adds
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h4><i class="fas fa-shopping-cart"></i> Coffee</h4>
+            <ul style="list-style-type: circle">
+              <li>Espresso</li>
+              <a href="https://www.kaffabutikk.no/" class="btn btn-success" role="button" target="_blank">Buy here</a>
+              <li>Filter</li>
+              <a href="https://stockfleths.as" class="btn btn-success" role="button" target="_blank">Buy here</a>
+            </ul>
+          </div>
+          <div class="col">
+            <h4><i class="fas fa-gift"></i> Gifts</h4>
+            <ul style="list-style-type: square">
+              <li>Books</li>
+              <a href="https://bookauthority.org/books/best-coffee-books" class="btn btn-success" role="button" target="_blank">Buy here</a>
+              <li>Cups</li>
+              <a href="https://www.etsy.com/market/code_mug" class="btn btn-success" role="button" target="_blank">Buy here</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Contact Page-->
+    <section id="contact-page">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>CONTACT</h2>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>If you are wondering about anything that we could help with, please come and visit us or write to us below</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h4><i class="fas fa-address-card"></i> Address</h4>
+            <p>Bryggetorget 21<br>
+                0250 Oslo<br>
+                Tlf nr (47) 4723 8118<br>
+            </p>
+            <p>Opening hours:<br>
+                Monday – Friday : 08.00 – 20.00<br>
+                Saturday – Sunday : 10.00 – 18.00<br>
+            </p>
+          </div>
+          <div class="col">
+            <h4><i class="fas fa-envelope-square"></i> Be in touch</h4>
+            <form>
+            <div>
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="Enter your email" name="email" required><br>
+            <label for="text">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" name="name"><br>
+            <label for="text">How we can help?</label>
+            <input type="text" id="text" placeholder="Write here" name="text"><br>
+            <input type="submit" value="Send!">
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Social Media-->
+    <footer>
+      <ul class="social-media">
+        <h2>Follow Us</h2>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.pinterest.com/" target="_blank"
+            ><i class="fab fa-pinterest-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="fab fa-youtube-square"></i
+          ></a>
+        </li>
+      </ul>
+      <hr>
+      <div class="copyright">
+      <i class="fas fa-copyright"> MC </i>
+         </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>

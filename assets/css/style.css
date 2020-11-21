@@ -10,15 +10,7 @@
 body {
     font-family: Inconsolata;
     color: saddlebrown;
-}
-
-nav {
-    text-align: center;
-    display: inline;
-    height: 50px;
-    background-color: cornsilk;
-    color: saddlebrown;
-
+    letter-spacing: 5px;
 }
 
 /*---header---*/
@@ -50,6 +42,20 @@ nav {
     padding-bottom: 20px;
 }
 
+/*--Navigation--*/
+nav {
+    height: 70px;
+    background-color: cornsilk;  
+}
+
+.menu {
+    text-align: center;
+    color: saddlebrown;
+}
+.menu li {
+    display: inline;
+}
+
 /*--Home section--*/
 
 #home-image {
@@ -64,22 +70,16 @@ nav {
 
 /*--About section--*/
 
-#about-place{
-    float: left;
+#cover-text {
+    width: 300px;
+    height: 150px;
+    background-color: saddlebrown;
+    border-radius: 10px;
+    opacity: 0.8;
 }
 
-#about-team {
-    float: right;
-}
-
-.container-left {
-    float: left;
-    width: 50%;
-}
-
-.container-right {
-    width: 50%;
-    float: right;
+#cover-text p {
+    color: cornsilk;
 }
 
 
