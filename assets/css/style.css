@@ -15,55 +15,33 @@ body {
 
 /*---header---*/
 
-#logo-image {
+#top-image {
     width: 100%;
-    height: 130px;
-    background-image: url("../images/codeline.jpg");
+    height: 80px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#logo-box {
-    background-color: cornsilk;
-    width: 80%;
-    height: 80px;
-    position: center;
-    border-radius: 10px;
-    opacity: 0.8;
-    padding-top: 20px;
-    margin: auto;
-}
-
-#logo-text {
-    text-align: center;
-    color: saddlebrown;
-    font-size: 30px;
-    padding-bottom: 20px;
-    margin: auto;
+    background-image: url("../images/codeline.jpg");
 }
 
 /*--Navigation--*/
+
 nav {
-    height: 80px;
-    background-color: cornsilk;
+    height: 100px;
 }
 
 .navbar {
+    background-color: cornsilk !important;
+}
+
+.navbar-brand {
+    color: saddlebrown !important;
     font-size: 40px;
 }
 
-.main-nav {
-    list-style-type: none;
-}
-    
-.main-nav li {
-    display: inline-block;
-    text-align: center;
-}
-
-.main-nav li a {
-    color: saddlebrown;
+.nav-link {
+    text-transform: uppercase;
+    color: saddlebrown !important;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -71,34 +49,100 @@ nav {
 
 #home-image {
     width: 100%;
-    height: 700px;
-    background-image: url("../images/crema.jpg");
+    height: 1000px;
+    background-image: url("../images/heroimage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; 
 }
 
+#cover-text {
+    width: 450px;
+    height: 220px;
+    background-color: saddlebrown;
+    border-radius: 10px;
+    opacity: 0.8;
+    overflow: hidden;
+    position: absolute;
+    color: cornsilk;
+    font-size: 25px;
+    text-align: justify;
+    text-shadow: 3px 3px 3px chocolate;
+    top: 700px;
+    left: 200px;
+    padding: 20px;
+}
 
 /*--About section--*/
 
-#cover-text {
-    width: 400px;
-    height: 200px;
-    background-color: saddlebrown;
-    border-radius: 10px;
-    opacity: 0.7;
+#about-page {
+    background-color: cornsilk;
+    color: saddlebrown;
 }
 
-#cover-text p {
-    color: cornsilk;
-    font-size: 25px;
+#about-page h2 {
+text-align: right;
 }
+
+#about-page h3 {
+    text-align: center;
+}
+
+/*--Menu section--*/
+#menu-page {
+background-color: saddlebrown;
+    color: cornsilk;
+}
+
+#menu-page h2 {
+text-align: right;
+}
+
+/*--Shop section--*/
+
+#shop-page {
+    background-color: cornsilk;
+    color: saddlebrown;
+}
+
+#shop-page h2 {
+text-align: right;
+}
+
+#shop-page h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#shop-page h4{
+    font-size: 40px;
+}
+
+#shop-page ul {
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: saddlebrown;
+    color: cornsilk;
+}
+
+/*--Contact section--*/
+#contact-page {
+    background-color: saddlebrown;
+    color: cornsilk;
+}
+
+#contact-page h2 {
+text-align: right;
+}
+
 
 
 /*--Footer--*/
 
 footer {
-    height: 100px;
+    height: 80px;
     color: saddlebrown;
     font-size: 100%;
 }
@@ -114,7 +158,7 @@ footer {
 
 .social-media i {
     color: saddlebrown;
-    font-size: 50px;
-    padding: 1%;
-    margin: 1%;
+    font-size: 60px;
+    padding: 3px;
+    margin: 3px;
 }

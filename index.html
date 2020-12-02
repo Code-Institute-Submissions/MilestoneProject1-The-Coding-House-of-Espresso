@@ -22,36 +22,37 @@
   </head>
 
   <body>
-    <header id="logo-image">
-      <div class="container-fluid">
-        <div class="row" id="logo-box">
-          <div class="col" id="logo-text">
-            <h1>'{The Coding House of Espresso}'</h1>
-          </div>
-        </div>
-      </div>
-    </header>
+    <header>
+        <div id="top-image"></div>
 
     <!--Navigation Bar-->
-    <nav class="navbar">
-        <ul class="main-nav">
-          <li>
-            <a href="#home-page">Home</a>
-          </li>
-          <li>
-            <a href="#about-page">About</a>
-          </li>
-          <li>
-            <a href="#menu-page">Menu</a>
-          </li>
-          <li>
-            <a href="#shop-page">Shop</a>
-          </li>
-          <li>
-            <a href="#contact-page">Contact</a>
-          </li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">'{ The Coding House of Espresso }'</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-page">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#menu-page">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#shop-page">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-page">Contact</a>
+      </li>
+
+      </ul>
+  </div>
+</nav>
+    </header>
 
     <!--Home Page-->
     <section id="home-page">
@@ -113,7 +114,7 @@
         </div>
       </div>
     </section>
-<hr/>
+
     <!--Menu Page-->
     <section id="menu-page" class="jumbotron">
       <div class="container">
@@ -137,7 +138,7 @@
         <div class="row">
           <div class="col-12 col-md-6">
             <h4><i class="fas fa-coffee"></i> Our Signature Beverages</h4>
-            <img src="assets/images/kafe.jpg" alt="" class="rounded-circle">
+            <img src="assets/images/kafe.jpg" alt="">
             <ul style="list-style-type: circle">
               <li>Espresso</li>
               <li>Double Espresso</li>
@@ -154,7 +155,7 @@
           </div>
           <div class="col-12 col-md-6">
             <h4><i class="fas fa-utensils"></i> Our Signature Bites</h4>
-            <img src="assets/images/food.jpg" alt="" class="rounded-circle">
+            <img src="assets/images/food.jpg" alt="">
             <ul style="list-style-type: square">
               <li>Croissant with ham and cheese</li>
               <li>Croissant with jam and butter</li>
@@ -172,7 +173,6 @@
         </div>
       </div>
     </section>
-    <hr/>
 
 <!--Shop Page-->
     <section id="shop-page" class="jumbotron">
@@ -185,7 +185,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12">
             <h3>
               Here you can purchase your local coffee beans and favorite adds
             </h3>
@@ -215,7 +215,6 @@
         </div>
       </div>
     </section>
-    <hr/>
 
 <!--Contact Page-->
     <section id="contact-page" class="jumbotron">
