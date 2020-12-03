@@ -23,6 +23,11 @@ body {
     background-image: url("../images/codeline.jpg");
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 /*--Navigation--*/
 
 nav {
@@ -56,18 +61,18 @@ nav {
 }
 
 #cover-text {
-    width: 450px;
-    height: 220px;
+    width: 750px;
+    height: 180px;
     background-color: saddlebrown;
     border-radius: 10px;
     opacity: 0.8;
     overflow: hidden;
     position: absolute;
     color: cornsilk;
-    font-size: 25px;
+    font-size: 30px;
     text-align: justify;
     text-shadow: 3px 3px 3px chocolate;
-    top: 700px;
+    top: 850px;
     left: 200px;
     padding: 20px;
 }
@@ -86,6 +91,20 @@ text-align: right;
 #about-page h3 {
     text-align: center;
 }
+
+/*--Gallery--*/
+
+#gallery{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#gallery img {
+    width: 100%;
+}
+
 
 /*--Menu section--*/
 #menu-page {
