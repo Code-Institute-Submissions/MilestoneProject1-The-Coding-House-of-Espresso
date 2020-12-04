@@ -13,6 +13,18 @@ body {
     letter-spacing: 5px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4{
+    font-size: 30px;
+}
+
 /*---header---*/
 
 #top-image {
@@ -84,21 +96,13 @@ nav {
     color: saddlebrown;
 }
 
-#about-page h2 {
-text-align: right;
-}
-
-#about-page h3 {
-    text-align: center;
-}
-
 /*--Gallery--*/
 
 #gallery{
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 0;
 }
 
 #gallery img {
@@ -112,10 +116,6 @@ background-color: saddlebrown;
     color: cornsilk;
 }
 
-#menu-page h2 {
-text-align: right;
-}
-
 /*--Shop section--*/
 
 #shop-page {
@@ -125,15 +125,6 @@ text-align: right;
 
 #shop-page h2 {
 text-align: right;
-}
-
-#shop-page h3 {
-    font-size: 20px;
-    text-align: center;
-}
-
-#shop-page h4{
-    font-size: 40px;
 }
 
 #shop-page ul {
@@ -151,12 +142,6 @@ text-align: right;
     background-color: saddlebrown;
     color: cornsilk;
 }
-
-#contact-page h2 {
-text-align: right;
-}
-
-
 
 /*--Footer--*/
 
