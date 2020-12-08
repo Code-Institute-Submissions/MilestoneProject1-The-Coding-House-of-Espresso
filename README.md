@@ -26,6 +26,8 @@ This Website was built to perform the first task called Milestone Project 1 defi
 
 ## The Coding House of Espresso 
 
+[View the live project here](https://maggiedaisy.github.io/MilestoneProject1-The-Coding-House-of-Espresso/)
+
 This project aims to create a responsive website for a coffee shop located in the most popular and attractive district of central Oslo. The website is dedicated to general visitors such as students and digital workers who would like to have their own meeting place while experiencing unforgettable coffee experiences.
 
 # 2. UXD – User Experience Design
@@ -166,7 +168,7 @@ Bootstrap
 - Inspiration for this project was the previous career experience and accession to the course.  
 - I would like to thank my mentor, Sandeep Aggarwal, for advice about starting planning this project ,,, 
 - Code Institute tutors for creating content of the course with the possibility of coming back to knowledge, and Slack Community for being available and helpful every single time when needed. 
-- Everyone who brought inspiration, ideas, examples, materials, or problem-solving solutions, especially students and leaders like Anna, Jim, Daisy, Richard and ,,,  
+- Everyone who brought inspiration, ideas, examples, materials, or problem-solving solutions, especially students and leaders like Anna, Jim, Harry, Daisy, Richard, ,,,  
 
 
 
