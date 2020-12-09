@@ -10,25 +10,46 @@
 body {
     font-family: Inconsolata;
     color: saddlebrown;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     background-color: cornsilk; 
 }
 
 h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 h3 {
     font-size: 20px;
+    text-align: center;
 }
 
 h4{
     font-size: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+img {
+display: flex;
+width: 100%;
+height: auto;
+text-align: center;
 }
 
 /*---header---*/
 /*--Navigation--*/
-
 nav {
     height: 100px;
 }
@@ -79,7 +100,6 @@ nav {
 }
 
 /*--Home section--*/
-
 #home-image {
     background-image: url("../images/heroimage.jpg");
     background-position: center;
@@ -110,14 +130,12 @@ nav {
 }
 
 /*--About section--*/
-
 #about-page {
     background-color: cornsilk;
     color: saddlebrown;
 }
 
 /*--Gallery--*/
-
 #gallery{
     clear: both;
     line-height: 0;
@@ -136,8 +154,11 @@ background-color: saddlebrown;
     color: cornsilk;
 }
 
-/*--Shop section--*/
+ul li {
+    list-style-position: inside;
+}
 
+/*--Shop section--*/
 #shop-page {
     background-color: cornsilk;
     color: saddlebrown;
@@ -145,6 +166,10 @@ background-color: saddlebrown;
 
 #shop-page ul {
     font-size: 30px;
+}
+
+.list-style {
+    list-style: none;
 }
 
 .btn {
@@ -168,7 +193,6 @@ background-color: saddlebrown;
 }
 
 /*--Footer--*/
-
 footer {
     height: 80px;
     color: saddlebrown;
@@ -189,4 +213,8 @@ footer {
     font-size: 60px;
     padding: 3px;
     margin: 3px;
+}
+
+footer p {
+    text-align: center;
 }
