@@ -114,6 +114,7 @@ Images
 * Autoprefixer CSS online - a plugin was used to parses CSS and adds vendor prefixes
 * W3C Markup Validation Service - validator was used to check the markup validity of content in HTML or CSS
 * Closing Tag Checker for HTML5 - was used to validate if all tags are open and close correctly
+* HTML Formatter - was used to beutify code 
 * MS1 Planning Session – Recorded and posted on You Tube Zoom session about planning Milestone Project nr 1
 
 

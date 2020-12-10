@@ -127,6 +127,7 @@ nav {
     top: 780px;
     left: 170px;
     padding: 20px;
+    display: flex;
 }
 
 /*--About section--*/
