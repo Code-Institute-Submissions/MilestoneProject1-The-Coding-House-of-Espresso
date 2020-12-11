@@ -60,7 +60,7 @@ The presentation of information contained on the website is structured, learnabl
 
 ### Skeleton
 
-[Wireframes:](https://github.com/MaggieDaisy/MilestoneProject1-The-Coding-House-of-Espresso)
+[Wireframes:](/assets/docs/Sketch_MS1.pdf)
 * 1 single page with 5 different content sections and the possibility to navigate between them
 * 5 sections called: Home, About, Menu, Shop, Contact
 * Header – fixed header with hero image and navigation bar

@@ -221,10 +221,6 @@ display: block;
   border-radius: 15px;
 }
 
-ul li {
-    list-style-position: inside;
-}
-
 /*--Shop section--*/
 #shop-page {
     background-color: cornsilk;
@@ -239,24 +235,99 @@ ul li {
     list-style: none;
 }
 
-.btn {
-    font-size: 20px;
+#shop-page h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#shop-page h3 {
+    text-align: center;
+}
+
+.coffee h2 {
+    text-align: left;
+}
+
+.gifts h2 {
+    text-align: right;
+}
+
+.coffee ul {
+ text-align: center;
+ font-size: 18px;
+}
+
+.gifts ul {
+text-align: center;
+ font-size: 17px;
+}
+
+#shop-page img {
+    width: 250px;
+    height: 370px;
+}
+
+.coffee img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.gifts img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 15px;
+}
+
+#shop-page .btn {
+    font-size: 30px;
     background-color: saddlebrown;
     border: none;
     color: cornsilk;
 }
 
-.btn:hover {
+#shop-page .btn:hover {
     opacity: 1;
     background-color: sandybrown;
     color: cornsilk;
 }
 
-
 /*--Contact section--*/
 #contact-page {
     background-color: saddlebrown;
     color: cornsilk;
+}
+
+#contact-page h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact-page h3 {
+    text-align: center;
+}
+
+.address h2 {
+    text-align: left;
+}
+
+.form h2 {
+    text-align: right;
+}
+
+#contact-page p {
+ text-align: justify;
+ font-size: 25px;
+}
+
+#contact-page form {
+ text-align: justify;
+ font-size: 17px;
+ text-align: right;
 }
 
 #contact-page .btn {
@@ -277,6 +348,10 @@ footer {
     font-size: 100%;
 }
 
+ul li {
+    list-style-position: inside;
+}
+
 .social-media {
     text-align: center;
     background-color: cornsilk;
@@ -291,6 +366,11 @@ footer {
     font-size: 60px;
     padding: 3px;
     margin: 3px;
+}
+
+.social-media i:hover {
+    background-color: sandybrown;
+    color: cornsilk;
 }
 
 footer p {
