@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -27,12 +28,13 @@ nav {
 
 .navbar-brand {
     color: saddlebrown !important;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     text-align: right;
 }
 
-.navbar li {
+.nav-item {
+    position: relative;
     text-align: right;
 }
 
@@ -40,28 +42,23 @@ nav {
     text-transform: uppercase;
     color: saddlebrown !important;
     background-color: cornsilk !important;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-}
-
-.nav-item {
-    position: relative;
 }
 
 .nav-item:after {
     content: "";
     position: absolute;
+    width: 0%;
+    border-bottom: 3px solid sandybrown;
+    transition: 0.2s;
     bottom: 0;
     left: 0;
-    width: 0%;
-    border-bottom: 3px solid saddlebrown;
-    transition: 0.3s;
 }
 
 .nav-item:hover:after {
-    transition: 0.3s;
+    transition: 0.2s;
     width: 100%;
-    background-color: sandybrown;
 }
 
 .navbar-toggler {
@@ -75,17 +72,21 @@ nav {
 }
 
 #home-image img {
-    width: 100%;
-    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
     display: flex;
+    background-size: cover;
+    border-radius: 25px;
+    align-content: center;
 }
 
 #home-text p {
     color: cornsilk;
-    font-size: 40px;
+    font-size: 18px;
     text-shadow: 3px 3px 3px chocolate;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 /*--About section--*/
@@ -105,15 +106,20 @@ nav {
 
 .place h2 {
     text-align: left;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 .team h2 {
     text-align: right;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 #about-page p {
     text-align: justify;
     font-size: 18px;
+    padding-top: 10px;
 }
 
 #about-page img {
@@ -122,14 +128,14 @@ nav {
 }
 
 .place img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
 }
 
 .team img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -154,7 +160,7 @@ nav {
     padding: 3px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 768px) {
     #photo {
         column-count: 2;
     }
@@ -166,7 +172,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
     #photo {
         column-count: 2;
     }
@@ -195,10 +201,14 @@ nav {
 
 .beverages h2 {
     text-align: left;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 .bites h2 {
     text-align: right;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 .beverages li {
@@ -217,14 +227,14 @@ nav {
 }
 
 .beverages img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
 }
 
 .bites img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -255,20 +265,34 @@ nav {
 
 .coffee h2 {
     text-align: left;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 .gifts h2 {
     text-align: right;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 .coffee ul {
     text-align: center;
     font-size: 18px;
+    padding-bottom: 10px;
 }
 
 .gifts ul {
     text-align: center;
     font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.coffee li {
+    padding-top: 20px;
+}
+
+.gifts li {
+    padding-top: 20px;
 }
 
 #shop-page img {
@@ -277,14 +301,14 @@ nav {
 }
 
 .coffee img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
 }
 
 .gifts img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -320,15 +344,20 @@ nav {
 
 .address h2 {
     text-align: left;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 .form h2 {
     text-align: right;
+    font-weight: bolder;
+    padding: 7px;
 }
 
 #contact-page p {
     text-align: justify;
     font-size: 25px;
+    padding-top: 10px;
 }
 
 #contact-page form {
@@ -348,16 +377,16 @@ nav {
     color: cornsilk;
 }
 
-.address img {
+.address div {
     opacity: 0.3;
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 15px;
 }
 
 .form img {
     opacity: 0.3;
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 15px;
 }
@@ -367,6 +396,10 @@ footer {
     height: 80px;
     color: saddlebrown;
     font-size: 100%;
+}
+
+footer h2 {
+    text-align: center;
 }
 
 ul li {
