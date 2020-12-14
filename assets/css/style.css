@@ -17,7 +17,7 @@ body {
 /*---header---*/
 /*--Navigation--*/
 nav {
-    height: 100px;
+    height: 65px;
     border-bottom: 1px solid sandybrown;
 }
 
@@ -28,21 +28,19 @@ nav {
 
 .navbar-brand {
     color: saddlebrown !important;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bolder;
-    text-align: right;
 }
 
 .nav-item {
     position: relative;
-    text-align: right;
 }
 
 .nav-link {
     text-transform: uppercase;
     color: saddlebrown !important;
     background-color: cornsilk !important;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -76,7 +74,7 @@ nav {
     height: auto;
     display: flex;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 20px;
     align-content: center;
 }
 
@@ -384,12 +382,6 @@ nav {
     border-radius: 15px;
 }
 
-.form img {
-    opacity: 0.3;
-    width: 50%;
-    height: auto;
-    border-radius: 15px;
-}
 
 /*--Footer--*/
 footer {
