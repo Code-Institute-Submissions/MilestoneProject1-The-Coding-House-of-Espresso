@@ -1,4 +1,4 @@
-<img src="assets/images/coderplace.jpg" style="margin: 0;">
+<img src="assets/docs/coderplace.jpg" style="margin: 0;">
 
 # The Coding House of Espresso - Milestone Project 1
 
@@ -14,11 +14,7 @@
 9. Credits
 10. Acknowledgments
 
-
-
-## Am I Responsive 
-
-
+<img src="assets/docs/amiresponsive.jpg" style="margin: 0;">
 
 # 1. Project purpose and introduction
 
@@ -72,10 +68,11 @@ Visual experience reflecting coffee texture and coffee color to bring a clean an
 
 Colors
 * Neutral tones, like blends of milk and coffee colors, reflecting the served beverages and create a cozy and calm down atmosphere. 
-Two main colors such as dark brown and light cream color create visual contrast 
+Two main colors such as dark brown and light cream color create visual contrast
+#FFF8DC 
 
 Typography
-* Font used for the retro visual experience, selected from google fonts, Inconsolata for whole body content.
+* Font 'Inconsolata' used for the retro visual experience for whole-body content, selected from google fonts.
 
 Images
 * The selection of images has been made to present beverages served in the shop and the design of the place as well as barista team members and potential guests.
@@ -83,39 +80,43 @@ Images
 # 3. Features
 
 ### Existing Features
-* Created with HTML5, CSS3 and Bootstrap.
 * Website with 5 individual and separate sections which are linked together to create a coherent whole
-* A fixed navbar allows to user-easy and intuitive navigating
-* A fixed footer allows to user clever access to social media
-* Fixed images which are responsive for mobile and desktop view
-* Contact Form with a possibility to write the message and subscribe to the newsletter
+* A sticky-top navbar allows to user-easy and intuitive navigating
+* A bottom footer allows to user clever access to social media
+* Sized images which are responsive for mobile and desktop view
+* A Buy here button points the user to a familiar but aside shop
+* Contact form with a possibility to write the message and subscribe to the newsletter
 
 ### Features Left to Implement when skills developed
 * Built a real shop page with 'buy here' buttons, once cooperation agreement with sellers is made
 * Link to real Social Media which represents shop, once they exist
 
 # 4. Technologies and Resources used 
+* [**Code Institute Fullstack Web Developer Course Content**](https://codeinstitute.net/) - was used as the main source of fundamental knowledge and inspiration.
+* [**Code Institute „SLACK” Community**](https://slack.com/intl/en-no/) - was used as a source of assistance.
+* **HTML - HTML5 technology** – was used as the main language to create the structure of the Website.
+* **CSS - CSS3 technology** – was used as the main language to style the Website.
+* [**Bootstrap**](https://getbootstrap.com/) - Bootstrap framework was used throughout this website for navigation bar and responsiveness.
+* [**Font Awesome**](https://fontawesome.com/) - Font Awesome Icons were used for the Social media links.
+* [**Google Fonts**](https://fonts.google.com/specimen/Inconsolata) - Google Font used throughout this project was 'Inconsolata'.
+* [**Gitpod**] - Integrated Development Environment was used to develop the Website.
+* [**GitHub**](https://github.com/) - GitHub hosting site was used to store the source code for the Website and Git Pages was used for the deployment of the live site.
+* [**Git**](https://git-scm.com/) - Git was used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [**Stack Overflow**](https://stackoverflow.com/) - was used as a general source of knowledge.
+* [**w3schools**](https://www.w3schools.com/howto/default.asp) - especially section 'How to' was used as a general source of knowledge.
+* [**Google Chrome Developer Tools**](https://developers.google.com/web/tools/chrome-devtools) - this built-in developer tool was used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [**Balsamiq Wireframe**](https://balsamiq.com/wireframes/) - these quick and handful tool was used to create wireframes for planning project structure and layout.
+* [**Am I Responsive Bookmarklet**](http://ami.responsivedesign.is/) - Multi Device Website Mockup Generator was used to create the Mockup image for this README file.
+* [**Make a README**](https://www.makeareadme.com/) – Page with suggestions on how to create a good Readme file.
+* [**Mastering Markdown**](https://guides.github.com/features/mastering-markdown/)– GitHub guide about Markdown. Lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. 
+* [**Autoprefixer CSS online**](https://autoprefixer.github.io/) - a plugin was used to parses CSS and adds vendor prefixes
+* [**W3C Markup Validation Service**](https://validator.w3.org/) - validator was used to check the markup validity of content in HTML and CSS
+* [**Closing Tag Checker for HTML5**](https://www.aliciaramirez.com/closing-tags-checker/) - was used to validate if all tags are open and close correctly
+* [**HTML and CSS Formatter**](https://webformatter.com/html) - was used to beautify code.
+* [**MS1 Planning Session**](https://www.youtube.com/watch?v=sH0m9N875SU&feature=youtu.be) - Zoom session about planning Milestone Project 1, recorded and posted on YouTube by Jim Lynx - was used to structure planning steps for MS1.
+* [**Bootstrap Essentials**](https://ajgreaves.github.io/bootstrap-grid-demo/index.html) - Page developed by Anna Greaves - was used as a source for a better understanding of the grid system.
+* [**Grammarly**](https://app.grammarly.com/) - a comprehensive writing tool was used as a helper to write clear and correct text.
 
-* Code Institute Fullstack Web Developer Course Content - was used as the main source of fundamental knowledge.
-* Code Institute „SLACK” Community - was used as a main source of assistance.
-* HTML - HTML5 technology – was used as the main language to create the structure of the Website.
-* CSS - CSS3 technology – was used as the main language to style the Website.
-* Bootstrap - Bootstrap framework was used throughout this website for navigation bar and responsiveness.
-* Font Awesome - Font Awesome Icons was used for the Social media links.
-* Google Font - Google Font used throughout this project was Inconsolata
-* Gitpod - Integrated Development Environment was used to develop the Website.
-* GitHub - GitHub hosting site was used to store the source code for the Website and Git Pages was used for the deployment of the live site.
-* Git - Git was used as version control software to commit and push code to the GitHub repository where the source code is stored.
-* Google Chrome Developer Tools - this built-in developer tool was used to inspect page elements and help debug issues with the site layout and test different CSS styles.
-* Balsamiq Wireframe - these quick and handful tool was used to create wireframes for planning project structure and layout
-* Am I Responsive Bookmarklet - Multi Device Website Mockup Generator was used to create the Mockup image for this README
-* Make a README – Page with suggestions how to create a good Readme file
-* Mastering Markdown – GitHub guide about Markdown. Lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. 
-* Autoprefixer CSS online - a plugin was used to parses CSS and adds vendor prefixes
-* W3C Markup Validation Service - validator was used to check the markup validity of content in HTML or CSS
-* Closing Tag Checker for HTML5 - was used to validate if all tags are open and close correctly
-* HTML Formatter - was used to beutify code 
-* MS1 Planning Session – Recorded and posted on You Tube Zoom session about planning Milestone Project nr 1
 
 
 # 5. Testing
