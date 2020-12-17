@@ -14,8 +14,6 @@
 9. Credits
 10. Acknowledgments
 
-<img src="assets/docs/amiresponsive.jpg" style="margin: 0;">
-
 # 1. Project purpose and introduction
 
 This Website was built to perform the first task called Milestone Project 1 defined by Code Institute during the Fullstack Web Developer Course. Under the process of creation used technologies were following languages: HTML and CSS with additional Bootstrap framework.
@@ -25,6 +23,8 @@ This Website was built to perform the first task called Milestone Project 1 defi
 [**View the live project here**](https://maggiedaisy.github.io/MilestoneProject1-The-Coding-House-of-Espresso/)
 
 This project aims to create a responsive website for a coffee shop located in the most popular and attractive district of central Oslo. The website is dedicated to general visitors such as students and digital workers who would like to have their own meeting place while experiencing unforgettable coffee experiences.
+
+<img src="assets/docs/airmockup.jpg" style="margin: 0;">
 
 # 2. UXD – User Experience Design
 
@@ -104,6 +104,7 @@ The selection of images has been made to present beverages and food served in th
 * [**Stack Overflow**](https://stackoverflow.com/) - was used as a general source of knowledge.
 * [**w3schools**](https://www.w3schools.com/howto/default.asp) - especially section 'How to' was used as a general source of knowledge.
 * [**Google Chrome Developer Tools**](https://developers.google.com/web/tools/chrome-devtools) - this built-in developer tool was used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [**Mobile-Friendly Test Tool**](https://search.google.com/test/mobile-friendly) - The Mobile-Friendly test tool was used to check if aplication is designed for mobile devices.
 * [**Balsamiq Wireframe**](https://balsamiq.com/wireframes/) - these quick and handful tool was used to create wireframes for planning project structure and layout.
 * [**Am I Responsive Bookmarklet**](http://ami.responsivedesign.is/) - Multi Device Website Mockup Generator was used to create the Mockup image for this README file.
 * [**Make a README**](https://www.makeareadme.com/) – a page that shows suggestions on how to create a good Readme file.
@@ -121,13 +122,37 @@ The selection of images has been made to present beverages and food served in th
 
 
 # 5. Testing
-Will be presented 
+The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
+This is a static front-end web application developed and implemented by using HTML and CSS with additional Bootstrap elements, so required testing was conducted on the basis of visual effects and website layout.
 
+The first step of the testing process was to create the basic framework of this application and check if the attached links work properly. 
+* Brand name link - has been checked and confirmed that directs the user successfully to the home page. 
+* All links settled in the top navigation panel  - has been checked that allows the user to flow between individual sections like Home, About, Menu, Shop, Contact.
+* Buy here buttons nested in the Shop section - has been checked and ensured that directs the user to aside shops and opens in a new tab
+* Contact form in the Contact section - has been checked and ensured that works as expected, Submit/Send button without entering the required e-mail address shows error and asks the user to fill out this field with input. Also, e-mail address input when tested with the wrong format shows an error and asks the user to fill out the correct input with @. The newsletter agrees on the button was checked and as a result, allows users to make choices about sending information about events organized in the shop. 
+* Social media icons settled in the footer - has been checked and ensured that points the user to social media main pages and opens in a new tab.
 
+The further tests of the application were about to check responsiveness in all sections using Google Chrome Developer Tools. Multiple tests on multiple desktop sizes confirmed that first, and a very raw structure works quite well on mobile devices as well as bigger desktop sizes, however, one main problem repeatedly occurred, on devices with small and extra-small resolutions brand name was not displayed properly.
+
+Continuing subsequent tests included a test on mobile devices such as mobile phones, the entire application was checked with Google Mobile-Friendly Test Tool and showed that the design is friendly to such devices.
+
+When the site developed closer to the final stage, the next test was to check eventually errors in a code validation. Entered code of the whole site in HTML Validator and the result was no errors but warnings to show. The warnings were about empty alt attributes for images, so was immediately fixed. Then repeated the same procedure in CSS Validator and also there were no errors or warnings to show.
+
+Final tests were about to check grammar and spelling throughout the whole site and Readme file, section by section text was run through Grammarly application and showed many errors to correct. 
+
+Answering to a user story needs: 
+* Tests performed on the top located navigation bar shown that every person visiting the site will be able to navigate very easily to find interesting content
+* Tests performed on the separate sections shown that users will be able to learn about the place and provide services in the shop. Additionally, tests performed on buy here buttons allow the user to order products familiar with the main theme. 
+* Tests performed on a contact form allows user to send to the shop bothering questions or subscribe to the newsletter
+* Tests performed on the contact section allows user to find information about localization and opening hours
+* Tests performed on footers social media icons allows user to find  visible and easy access to social media
+* Tests performed on different screen sizes shows that the application is responsive, so the user can look at the page on different devices
 
 # 6. Project barriers and solutions
-Will be presented
 
+* nav bar
+* hero image
+* gallery
 
 # 7. Version Control
 
