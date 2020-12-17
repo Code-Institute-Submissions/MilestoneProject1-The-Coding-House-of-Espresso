@@ -108,8 +108,7 @@ The selection of images has been made to present beverages and food served in th
 * [**Balsamiq Wireframe**](https://balsamiq.com/wireframes/) - these quick and handful tool was used to create wireframes for planning project structure and layout.
 * [**Am I Responsive Bookmarklet**](http://ami.responsivedesign.is/) - Multi Device Website Mockup Generator was used to create the Mockup image for this README file.
 * [**Make a README**](https://www.makeareadme.com/) – a page that shows suggestions on how to create a good Readme file.
-* [**Mastering Markdown**](https://guides.github.com/features/mastering-markdown/)– GitHub guide about Markdown. Lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. 
-* [**Autoprefixer CSS online**](https://autoprefixer.github.io/) - a plugin was used to parses CSS and adds vendor prefixes.
+* [**Mastering Markdown**](https://guides.github.com/features/mastering-markdown/)– GitHub guide about Markdown. Lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform.
 * [**W3C Markup Validation Service**](https://validator.w3.org/) - validator was used to check the markup validity of content in HTML and CSS.
 * [**Closing Tag Checker for HTML5**](https://www.aliciaramirez.com/closing-tags-checker/) - was used to validate if all tags are open and close correctly.
 * [**HTML and CSS Formatter**](https://webformatter.com/html) - was used to beautify code.
@@ -119,40 +118,40 @@ The selection of images has been made to present beverages and food served in th
 * [**HTML Color Codes**](https://htmlcolorcodes.com/color-names/) - has been used as a color picker to create a layout on the Website.
 * **Microsoft Paint** - a simple raster graphics editor has been used for editing and resizing pictures. 
 
-
-
 # 5. Testing
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
 This is a static front-end web application developed and implemented by using HTML and CSS with additional Bootstrap elements, so required testing was conducted on the basis of visual effects and website layout.
 
 The first step of the testing process was to create the basic framework of this application and check if the attached links work properly. 
-* Brand name link - has been checked and confirmed that directs the user successfully to the home page. 
-* All links settled in the top navigation panel  - has been checked that allows the user to flow between individual sections like Home, About, Menu, Shop, Contact.
-* Buy here buttons nested in the Shop section - has been checked and ensured that directs the user to aside shops and opens in a new tab
-* Contact form in the Contact section - has been checked and ensured that works as expected, Submit/Send button without entering the required e-mail address shows error and asks the user to fill out this field with input. Also, e-mail address input when tested with the wrong format shows an error and asks the user to fill out the correct input with @. The newsletter agrees on the button was checked and as a result, allows users to make choices about sending information about events organized in the shop. 
-* Social media icons settled in the footer - has been checked and ensured that points the user to social media main pages and opens in a new tab.
+* **Brand name link** - has been checked and confirmed that directs the user successfully to the home page. 
+* **All links settled in the top navigation panel**  - has been checked that allows the user to flow between individual sections like Home, About, Menu, Shop, Contact.
+* **Buy here buttons** nested in the Shop section - has been checked and ensured that directs the user to aside shops and opens in a new tab
+* **Contact form** in the Contact section - has been checked and ensured that works as expected, Submit/Send button without entering the required e-mail address shows error and asks the user to fill out this field with input. Also, e-mail address input when tested with the wrong format shows an error and asks the user to fill out the correct input with @. The newsletter agrees on the button was checked and as a result, allows users to make choices about sending information about events organized in the shop. 
+* **Social media icons** settled in the footer - has been checked and ensured that points the user to social media main pages and opens in a new tab.
 
-The further tests of the application were about to check responsiveness in all sections using Google Chrome Developer Tools. Multiple tests on multiple desktop sizes confirmed that first, and a very raw structure works quite well on mobile devices as well as bigger desktop sizes, however, one main problem repeatedly occurred, on devices with small and extra-small resolutions brand name was not displayed properly.
+The further tests of the application were about to check responsiveness in all sections using [**Google Chrome Developer Tools**](https://developers.google.com/web/tools/chrome-devtools). Multiple tests on multiple desktop sizes confirmed that first, and a very raw structure works quite well on mobile devices as well as bigger desktop sizes, however, one main problem repeatedly occurred, on devices with small and extra-small resolutions brand name was not displayed properly.
 
-Continuing subsequent tests included a test on mobile devices such as mobile phones, the entire application was checked with Google Mobile-Friendly Test Tool and showed that the design is friendly to such devices.
+Continuing subsequent tests included a test on mobile devices such as mobile phones, the entire application was checked with Google [**Mobile-Friendly Test Tool**](https://search.google.com/test/mobile-friendly) and showed that the design is friendly to such devices.
 
-When the site developed closer to the final stage, the next test was to check eventually errors in a code validation. Entered code of the whole site in HTML Validator and the result was no errors but warnings to show. The warnings were about empty alt attributes for images, so was immediately fixed. Then repeated the same procedure in CSS Validator and also there were no errors or warnings to show.
+When the site developed closer to the final stage, the next test was to check eventually errors in a code validation. Entered code of the whole site in [**W3C HTML Validator**](https://validator.w3.org/) and the result was no errors but warnings to show. The warnings were about empty alt attributes for images, so was immediately fixed. Then repeated the same procedure in [**W3C CSS Validator**](https://jigsaw.w3.org/css-validator/) and also there were no errors or warnings to show.
 
-Final tests were about to check grammar and spelling throughout the whole site and Readme file, section by section text was run through Grammarly application and showed many errors to correct. 
+Final tests were about to check grammar and spelling throughout the whole site and Readme file, section by section text was run through [**Grammarly**](https://app.grammarly.com/) application and showed several errors to correct.
+
+The tests were conducted mainly with the use of **Google Chrome** browser, recommended during the course. However, the research also covered other browsers such as **Mozilla Firefox**, **Microsoft Edge**, and **Apple Safari**. In general, after inspecting by use of the tools available in each browser, it was found that the application displays correctly and is responsive to different screen sizes.
 
 Answering to a user story needs: 
-* Tests performed on the top located navigation bar shown that every person visiting the site will be able to navigate very easily to find interesting content
-* Tests performed on the separate sections shown that users will be able to learn about the place and provide services in the shop. Additionally, tests performed on buy here buttons allow the user to order products familiar with the main theme. 
-* Tests performed on a contact form allows user to send to the shop bothering questions or subscribe to the newsletter
-* Tests performed on the contact section allows user to find information about localization and opening hours
-* Tests performed on footers social media icons allows user to find  visible and easy access to social media
-* Tests performed on different screen sizes shows that the application is responsive, so the user can look at the page on different devices
+* Tests made on the top located navigation bar shown that every person visiting the site will be able to navigate very easily to find interesting content
+* Tests made on the separate sections shown that users will be able to learn about the place and provide services in the shop. Additionally, tests performed on buy here buttons allow the user to order products familiar with the main theme. 
+* Tests made on a contact form allows user to send to the shop bothering questions or subscribe to the newsletter
+* Tests made on the contact section allows user to find information about localization and opening hours
+* Tests made on footers social media icons allows user to find  visible and easy access to social media
+* Tests made on different screen sizes shows that the application is responsive, so the user can look at the page on different devices
 
 # 6. Project barriers and solutions
 
-* nav bar
-* hero image
-* gallery
+* Nav-bar solution borrowed from Boostrap showed several issues that were solved during the development of this application. The brand name was not displaying correctly on small screens, this was solved using media query only screen for max-width: 600px. The navigation links to the individual sections showed a tendency to the left side, which was solved by adding the justify-content-end class. The problem also occurred when applying the background color and the font color to the finished navigation, this was solved with value !important which might seem to be overused for this main part of a project to achieve the desired effect. 
+* The hero image for the Home section has been changed several times during the design process. The first and main reason for this was that, from an aesthetic point of view, the photo is too colorful and distracting. The first idea to introduce this photo was that it would refer to the main topic of designing a store for programmers and coffee lovers, but finally, after listening to users' opinions, the photo of the main page was changed to a warm and calm background referring to a standard coffee shop.
+* In the initial phase of the project, the solution for introducing the gallery was to use Slideshow / Carousel, but due to the lack of ability to use JavaScript, a simple solution was used using the container class to build the visual effect of displaying photos. However, the gallery was not displaying correctly on every device, this was solved by adjusting the size of the photos and adding a media query to the appropriate screen sizes.
 
 # 7. Version Control
 
