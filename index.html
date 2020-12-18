@@ -18,7 +18,7 @@
             <!-- Credit - Code snippet from Bootsrap 4 components for proper responsive styling - https://getbootstrap.com/docs/4.0/components/navbar/ -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
                 <a class="navbar-brand" href="index.html">'{The Coding House of Espresso}'</a>
-                <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -48,7 +48,7 @@
             <div id="home-image" class="container">
                 <div class="row">
                     <div class="col">
-                        <img src="assets/images/heropic.jpg" alt="Blue cup of coffe with latte art" />
+                        <img src="assets/images/homeimg.jpg" alt="Blue cup of coffe with latte art" />
                     </div>
                 </div>
             </div>
@@ -302,6 +302,26 @@
             <br />
             <div class="container">
                 <div class="row">
+                    <div class="col-12 col-md-6 write">
+                        <h2><i class="fas fa-envelope-square"></i> Be in touch</h2>
+                        <br />
+                        <form>
+                            <div>
+                                <label for="email">Email address</label><br />
+                                <input type="email" id="email" name="email" required /><br />
+                                <label for="text">Name</label><br />
+                                <input type="text" id="text" name="name" /><br />
+                                <label for="textarea">How we can help?</label><br />
+                                <textarea rows="6" cols="30" id="textarea" name="comment"></textarea>
+                                <br />
+                                <label for="checkbox">Newsletter</label>
+                                <input type="checkbox" id="checkbox" name="checkbox" /> Yes
+                                <br />
+                                <input type="submit" class="btn" value="Send!" />
+                            </div>
+                        </form>
+                    </div>
+                    <br />
                     <div class="col-12 col-md-6 address">
                         <h2><i class="fas fa-address-card"></i> Address</h2>
                         <br />
@@ -317,25 +337,6 @@
                             <b>Saturday - Sunday:</b> 10.00-18.00<br />
                         </p>
                     </div>
-                    <div class="col-12 col-md-6 form">
-                        <h2><i class="fas fa-envelope-square"></i> Be in touch</h2>
-                        <br />
-                        <form>
-                            <div>
-                                <label for="email">Email address</label><br />
-                                <input type="email" id="email" name="email" required /><br />
-                                <label for="text">Name</label><br />
-                                <input type="text" id="text" name="name" /><br />
-                                <label for="textarea">How we can help?</label><br />
-                                <textarea rows="5" cols="30" id="textarea" name="comment"></textarea>
-                                <br />
-                                <label for="checkbox">Newsletter</label>
-                                <input type="checkbox" id="checkbox" name="checkbox" /> Yes
-                                <br />
-                                <input type="submit" class="btn" value="Send!" />
-                            </div>
-                        </form>
-                    </div>
                 </div>
             </div>
             <br />
@@ -343,29 +344,31 @@
         <br />
 
         <!-- Social Media -->
-        <!-- Credit - Inspiration for footer from course content walkthrough project 'Love Running' by Code Institute -->
-        <footer>
-            <h2>Follow Us</h2>
-            <ul class="social-media">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square"></i></a>
-                </li>
-            </ul>
-            <!-- Credit - Information on how to create a copyright symbol - https://www.w3schools.com/html/html_symbols.asp -->
-            <p>&copy; MC ❁ 2020</p>
-        </footer>
+        <!-- Credit - Inspiration for footer from course content walkthrough project 'Love Running' by Code Institute, and w3schools.com how to create sticky element https://www.w3schools.com/howto/howto_css_sticky_element.asp-->
+        <div class="sticky-footer">
+            <footer>
+                <h2>Follow Us</h2>
+                <ul class="social-media">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                    </li>
+                </ul>
+                <!-- Credit - Information on how to create a copyright symbol - https://www.w3schools.com/html/html_symbols.asp -->
+                <p>&copy; MC ❁ 2020</p>
+            </footer>
+        </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

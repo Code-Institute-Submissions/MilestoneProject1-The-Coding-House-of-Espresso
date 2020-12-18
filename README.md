@@ -122,6 +122,9 @@ The selection of images has been made to present beverages and food served in th
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
 This is a static front-end web application developed and implemented by using HTML and CSS with additional Bootstrap elements, so required testing was conducted on the basis of visual effects and website layout.
 
+_**General testing results:**_
+<hr>
+
 The first step of the testing process was to create the basic framework of this application and check if the attached links work properly. 
 * **Brand name link** - has been checked and confirmed that directs the user successfully to the home page. 
 * **All links settled in the top navigation panel**  - has been checked that allows the user to flow between individual sections like Home, About, Menu, Shop, Contact.
@@ -137,9 +140,11 @@ When the site developed closer to the final stage, the next test was to check ev
 
 Final tests were about to check grammar and spelling throughout the whole site and Readme file, section by section text was run through [**Grammarly**](https://app.grammarly.com/) application and showed several errors to correct.
 
-The tests were conducted mainly with the use of **Google Chrome** browser, recommended during the course. However, the research also covered other browsers such as **Mozilla Firefox**, **Microsoft Edge**, and **Apple Safari**. In general, after inspecting by use of the tools available in each browser, it was found that the application displays correctly and is responsive to different screen sizes.
+The tests were conducted mainly with the use of **Google Chrome** browser, recommended during the course. However, the research also covered other browsers such as **Mozilla Firefox**, **Microsoft Edge**, and **Apple Safari**. In general, after inspecting by use of the tools available in each browser, it was found that the application displays correctly and is responsive to different screen sizes. In addition, the test was performed live on devices such as **Huawei P20**, **Samsung Galaxy S10**, **iPhone 11**, **iPad 9.7**, **HP Spectre 13**. The result was very good and shown that on all those screen devices website was responsive and displayed as expected. 
 
-Answering to a user story needs: 
+_**Answering to a user story needs:**_ 
+<hr>
+
 * Tests made on the top located navigation bar shown that every person visiting the site will be able to navigate very easily to find interesting content
 * Tests made on the separate sections shown that users will be able to learn about the place and provide services in the shop. Additionally, tests performed on buy here buttons allow the user to order products familiar with the main theme. 
 * Tests made on a contact form allows user to send to the shop bothering questions or subscribe to the newsletter
@@ -150,12 +155,12 @@ Answering to a user story needs:
 # 6. Project barriers and solutions
 
 * Nav-bar solution borrowed from Boostrap showed several issues that were solved during the development of this application. The brand name was not displaying correctly on small screens, this was solved using media query only screen for max-width: 600px. The navigation links to the individual sections showed a tendency to the left side, which was solved by adding the justify-content-end class. The problem also occurred when applying the background color and the font color to the finished navigation, this was solved with value !important which might seem to be overused for this main part of a project to achieve the desired effect. 
-* The hero image for the Home section has been changed several times during the design process. The first and main reason for this was that, from an aesthetic point of view, the photo is too colorful and distracting. The first idea to introduce this photo was that it would refer to the main topic of designing a store for programmers and coffee lovers, but finally, after listening to users' opinions, the photo of the main page was changed to a warm and calm background referring to a standard coffee shop.
+* The hero image for the Home section has been changed several times during the design process. The first and main reason for this was that, from an aesthetic point of view, the photo is too colorful and distracting [example of previous version](/assets/docs/toppicture.jpg). The first idea to introduce this photo was that it would refer to the main topic of designing a store for programmers and coffee lovers, but finally, after listening to users' opinions, the photo of the main page was changed to a warm and calm background referring to a standard coffee shop.
 * In the initial phase of the project, the solution for introducing the gallery was to use Slideshow / Carousel, but due to the lack of ability to use JavaScript, a simple solution was used using the container class to build the visual effect of displaying photos. However, the gallery was not displaying correctly on every device, this was solved by adjusting the size of the photos and adding a media query to the appropriate screen sizes.
 
 # 7. Version Control
 
-Git - free and open-source distributed Version Control System was used to show tracking all changes during the coding process. 
+**Git** - free and open-source distributed Version Control System was used to show tracking all changes during the coding process. 
 Git add, Git commit, Git push commands were used to approve and store files in the repository. 
 
 # 8. Deployment
@@ -163,11 +168,11 @@ Git add, Git commit, Git push commands were used to approve and store files in t
 This project was developed by using GitHub - a code hosting platform and Gitpod - an online Integrated Development Environment. There is no difference between the deployed version and the development version.
 The first step was to create a new "Repository" named Milestone Project 1 in GitHub. Then once opened in Gitpod the whole process started by creating a structure of files and then the very first boilerplate of code, then successively with time whole code structure. Next, the code was pushed to GitHub where was stored in my Repository. 
 ### Deployment using GitHub pages:
-* Navigate to the Git Hub Repository - [**My Repository**](https://github.com/MaggieDaisy/MilestoneProject1-The-Coding-House-of-Espresso)
+* Navigate to the Git Hub Repository - **My Repository**
 * Then, right under the "Settings" section of the GitHub repository, scroll down to "GitHub Pages" section.
 * After, select a "master branch" under "source" drop-down and click "save" button
 * Once selected, this publishes the project to GitHub Pages and then you can click to URL link to go directly to the live deployed page
-### Deployment using Run Locally:
+### How to use Run Locally:
 * The code can be also run locally, optional through clone or download 
 * Navigate and open the repository, click on the green "Code" button, and select either "clone" or "download".
 * The Clone option provides a URL, which you can use on your desktop IDE.
@@ -189,6 +194,7 @@ All the images used in this site were picked from [**Unsplash**](https://unspla
 1. Code snippet from [**Bootsrap 4 components**](https://getbootstrap.com/docs/4.0/components/navbar/) for responsive navigation bar
 1. Gallery form inspiration was borrowed from course content walkthrough project 'Love Running' by Code Institute
 2. Inspiration for footer was borrowed from course content walkthrough project 'Love Running' by Code Institute
+3. Inspiration for making footer as a sticky element [**w3schools**](https://www.w3schools.com/howto/howto_css_sticky_element.asp)
 
 # 10. Acknowledgments
 

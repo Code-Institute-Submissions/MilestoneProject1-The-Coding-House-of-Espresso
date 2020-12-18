@@ -80,6 +80,8 @@ nav {
     width: 100%;
 }
 
+
+/*-- Responsive rules for navigation bar --*/
 @media only screen and (max-width: 600px) {
     .navbar-brand {
         color: saddlebrown !important;
@@ -100,6 +102,7 @@ nav {
     background-size: cover;
     border-radius: 20px;
     align-content: center;
+    padding-top: 1.9rem;
 }
 
 #home-text h3 {
@@ -115,6 +118,7 @@ nav {
 #about-page {
     background-color: cornsilk;
     color: saddlebrown;
+    padding-top: 50px;
 }
 
 #about-page h1 {
@@ -128,14 +132,14 @@ nav {
 }
 
 .place h2 {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
 }
 
 .team h2 {
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
@@ -190,6 +194,7 @@ nav {
     padding: 3px;
 }
 
+/*-- Responsive rules for gallery --*/
 @media screen and (max-width: 960px) {
     #photo {
         column-count: 2;
@@ -230,6 +235,7 @@ nav {
 #menu-page {
     background-color: saddlebrown;
     color: cornsilk;
+    padding-top: 50px;
 }
 
 #menu-page h1 {
@@ -243,14 +249,14 @@ nav {
 }
 
 .beverages h2 {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
 }
 
 .bites h2 {
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
@@ -295,6 +301,7 @@ nav {
 #shop-page {
     background-color: cornsilk;
     color: saddlebrown;
+    padding-top: 50px;
 }
 
 #shop-page ul {
@@ -320,14 +327,14 @@ nav {
 }
 
 .coffee h2 {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
 }
 
 .gifts h2 {
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
@@ -397,6 +404,7 @@ nav {
 #contact-page {
     background-color: saddlebrown;
     color: cornsilk;
+    padding-top: 50px;
 }
 
 #contact-page h1 {
@@ -410,29 +418,28 @@ nav {
 }
 
 .address h2 {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
 }
 
-.form h2 {
-    text-align: right;
+.write h2 {
+    text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     padding: 7px;
 }
 
 #contact-page p {
-    text-align: justify;
+    text-align: center;
     font-size: 1.2rem;
     padding-top: 10px;
 }
 
 #contact-page form {
-    text-align: justify;
+    text-align: left;
     font-size: 1.1rem;
-    text-align: right;
 }
 
 #contact-page .btn {
@@ -448,7 +455,7 @@ nav {
 
 /*-- Footer --*/
 footer {
-    height: 80px;
+    height: 5rem;
     color: saddlebrown;
     font-size: 1rem;
 }
@@ -486,4 +493,32 @@ footer p {
     text-align: center;
     font-size: 0.8rem;
     padding-bottom: 10px;
+}
+
+/* -- Credit - w3schools.com how to create sticky element https://www.w3schools.com/howto/howto_css_sticky_element.asp --*/
+.sticky-footer {
+    position: sticky;
+    bottom: 0;
+    height: 5rem;
+    background-color: cornsilk;
+}
+
+/*-- Responsive rules for footer --*/
+@media only screen and (max-width: 600px) {
+  footer {
+    height: 1.5rem;
+}  
+    
+    footer h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.social-media i {
+    color: saddlebrown;
+    font-size: 1.4rem;
+    padding: 3px;
+    margin: 3px;
+}
 }
