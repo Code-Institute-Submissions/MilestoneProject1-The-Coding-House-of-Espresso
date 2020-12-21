@@ -22,7 +22,7 @@ This Website was built to perform the first task called Milestone Project 1 defi
 
 [**View the live project here**](https://maggiedaisy.github.io/MilestoneProject1-The-Coding-House-of-Espresso/)
 
-This project aims to create a responsive website for a coffee shop located in the most popular and attractive district of central Oslo. The website is dedicated to general visitors such as students and digital workers who would like to have their own meeting place while experiencing unforgettable coffee experiences.
+This project aims to create a responsive website for a coffee shop located in the most popular and attractive district of central Oslo. The website is dedicated to general visitors such as students and digital workers who would like to have their own meeting place while enjoying unforgettable coffee experiences.
 
 <img src="assets/docs/airmockup.jpg" style="margin: 0;">
 
@@ -81,12 +81,12 @@ The selection of images has been made to present beverages and food served in th
 ### Existing Features
 * Website with 5 individual and separate sections which are linked together to create a coherent whole
 * A sticky-top navbar allows to user-easy and intuitive navigating
-* A bottom footer allows to user clever access to social media
+* A sticky-bottom footer allows to user clever access to social media
 * Sized images which are responsive for mobile and desktop view
 * A 'buy here' button points the user to a familiar but aside shop
 * Contact form with a possibility to write the message and subscribe to the newsletter
 
-### Features Left to Implement when skills developed
+### Features left to implement when skills developed
 * Built a real shop page with 'buy here' buttons, once cooperation agreement with sellers is made
 * Link to real Social Media which represents shop, once they exist
 
@@ -136,7 +136,7 @@ The further tests of the application were about to check responsiveness in all s
 
 Continuing subsequent tests included a test on mobile devices such as mobile phones, the entire application was checked with Google [**Mobile-Friendly Test Tool**](https://search.google.com/test/mobile-friendly) and showed that the design is friendly to such devices.
 
-When the site developed closer to the final stage, the next test was to check eventually errors in a code validation. Entered code of the whole site in [**W3C HTML Validator**](https://validator.w3.org/) and the result was no errors but warnings to show. The warnings were about empty alt attributes for images, so was immediately fixed. Then repeated the same procedure in [**W3C CSS Validator**](https://jigsaw.w3.org/css-validator/) and also there were no errors or warnings to show.
+When the site developed closer to the final stage, the next test was to check eventually errors in a code validation. Code of the whole site was entered in [**W3C HTML Validator**](https://validator.w3.org/) and the result was no errors but warnings to show. The warnings were about empty alt attributes for images, so was immediately fixed. Then repeated the same procedure in [**W3C CSS Validator**](https://jigsaw.w3.org/css-validator/) and also there were no errors or warnings to show.
 
 Final tests were about to check grammar and spelling throughout the whole site and Readme file, section by section text was run through [**Grammarly**](https://app.grammarly.com/) application and showed several errors to correct.
 
@@ -154,9 +154,9 @@ _**Answering to a user story needs:**_
 
 # 6. Project barriers and solutions
 
-* Nav-bar solution borrowed from Boostrap showed several issues that were solved during the development of this application. The brand name was not displaying correctly on small screens, this was solved using media query only screen for max-width: 600px. The navigation links to the individual sections showed a tendency to the left side, which was solved by adding the justify-content-end class. The problem also occurred when applying the background color and the font color to the finished navigation, this was solved with value !important which might seem to be overused for this main part of a project to achieve the desired effect. 
-* The hero image for the Home section has been changed several times during the design process. The first and main reason for this was that, from an aesthetic point of view, the photo is too colorful and distracting [example of previous version](/assets/docs/toppicture.jpg). The first idea to introduce this photo was that it would refer to the main topic of designing a store for programmers and coffee lovers, but finally, after listening to users' opinions, the photo of the main page was changed to a warm and calm background referring to a standard coffee shop.
-* In the initial phase of the project, the solution for introducing the gallery was to use Slideshow / Carousel, but due to the lack of ability to use JavaScript, a simple solution was used using the container class to build the visual effect of displaying photos. However, the gallery was not displaying correctly on every device, this was solved by adjusting the size of the photos and adding a media query to the appropriate screen sizes.
+* **Navbar** solution borrowed from Boostrap showed several issues that were solved during the development of this application. The brand name was not displaying correctly on small screens, this was solved by using media query only screen for max-width: 600px. The navigation links to the individual sections showed a tendency to the left side, which was solved by adding the justify-content-end class. The problem also occurred when applying the background color and the font color to the finished navigation, this was solved with value !important which might seem to be overused for this main part of a project to achieve the desired effect. 
+* The **home image** for the Home section has been changed several times during the design process. The first and main reason for this was that, from an aesthetic point of view, the photo is too colorful and distracting - [example of previous version](/assets/docs/toppicture.jpg). The first idea to introduce this photo was that it would refer to the main topic of designing a store for programmers and coffee lovers, but finally, after listening to users' opinions, the photo of the main page was changed to a warm and calm background referring to a standard coffee shop.
+* **Gallery** solution in the initial phase of the project was to use Slideshow/Carousel, but due to the lack of ability to use JavaScript, a simple solution was used. Container class was introduced to build the visual effect of displaying photos. However, the gallery was not displaying correctly on every device, this was solved by adjusting the size of the photos and adding a media query to the appropriate screen sizes.
 
 # 7. Version Control
 
@@ -169,14 +169,14 @@ This project was developed by using GitHub - a code hosting platform and Gitpod 
 The first step was to create a new "Repository" named Milestone Project 1 in GitHub. Then once opened in Gitpod the whole process started by creating a structure of files and then the very first boilerplate of code, then successively with time whole code structure. Next, the code was pushed to GitHub where was stored in my Repository. 
 ### Deployment using GitHub pages:
 * Navigate to the Git Hub Repository - **My Repository**
-* Then, right under the "Settings" section of the GitHub repository, scroll down to "GitHub Pages" section.
+* Then, right under the "Settings" section of the GitHub repository, scroll down to "GitHub Pages" section
 * After, select a "master branch" under "source" drop-down and click "save" button
 * Once selected, this publishes the project to GitHub Pages and then you can click to URL link to go directly to the live deployed page
 ### How to use Run Locally:
 * The code can be also run locally, optional through clone or download 
-* Navigate and open the repository, click on the green "Code" button, and select either "clone" or "download".
-* The Clone option provides a URL, which you can use on your desktop IDE.
-* The Download ZIP option provides a link to download a ZIP file that can be unzipped, unpacked, and displayed on your local computer.
+* Navigate and open the repository, click on the green "Code" button, and select either "clone" or "download"
+* The Clone option provides a URL, which you can use on your desktop IDE
+* The Download ZIP option provides a link to download a ZIP file that can be unzipped, unpacked, and displayed on your local computer
 
 # 9. Credits
 
