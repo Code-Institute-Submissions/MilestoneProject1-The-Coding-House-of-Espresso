@@ -80,8 +80,8 @@ The selection of images has been made to present beverages and food served in th
 
 ### Existing Features
 * Website with 5 individual and separate sections which are linked together to create a coherent whole
-* A sticky-top navbar allows to user-easy and intuitive navigating
-* A sticky-bottom footer allows to user clever access to social media
+* A fixed/sticky-top navbar allows to user-easy and intuitive navigating
+* A fixed/sticky-bottom footer allows to user clever access to social media
 * Sized images which are responsive for mobile and desktop view
 * A 'buy here' button points the user to a familiar but aside shop
 * Contact form with a possibility to write the message and subscribe to the newsletter
@@ -120,7 +120,7 @@ The selection of images has been made to present beverages and food served in th
 
 # 5. Testing
 The final result of this project is a front-end web application based on the principles of user experience design, accessibility, and responsivity. 
-This is a static front-end web application developed and implemented by using HTML and CSS with additional Bootstrap elements, so required testing was conducted on the basis of visual effects and website layout.
+**This is a static front-end web application developed and implemented by using HTML and CSS with additional Bootstrap elements**, so required testing was conducted on the basis of visual effects and website layout.
 
 _**General testing results:**_
 <hr>
@@ -145,27 +145,30 @@ The tests were conducted mainly with the use of **Google Chrome** browser, recom
 _**Answering to a user story needs:**_ 
 <hr>
 
-* Tests made on the top located navigation bar shown that every person visiting the site will be able to navigate very easily to find interesting content
+* Tests made on the top located navigation bar shown that every person visiting the site will be able to navigate very easily to find interesting content. Clickable links are bringing the user to different sections. 
 * Tests made on the separate sections shown that users will be able to learn about the place and provide services in the shop. Additionally, tests performed on buy here buttons allow the user to order products familiar with the main theme. 
-* Tests made on a contact form allows user to send to the shop bothering questions or subscribe to the newsletter
-* Tests made on the contact section allows user to find information about localization and opening hours
-* Tests made on footers social media icons allows user to find  visible and easy access to social media
-* Tests made on different screen sizes shows that the application is responsive, so the user can look at the page on different devices
+* Tests made on a contact form allows user to send to the shop bothering questions or subscribe to the newsletter. The choice was given to the user who can just write a message, just sign up for the newsletter, or use both of these options.
+* Tests made on the contact section allows user to find information about localization and opening hours.
+* Tests made on footers social media icons allows user to find  visible and easy access to social media. Clickable links are giving the user possibility to observe and join the local community. 
+* Tests made on different screen sizes shows that the application is responsive, so the user can look at the page on different devices.
 
 # 6. Project barriers and solutions
 
-* **Navbar** solution borrowed from Boostrap showed several issues that were solved during the development of this application. The brand name was not displaying correctly on small screens, this was solved by using media query only screen for max-width: 600px. The navigation links to the individual sections showed a tendency to the left side, which was solved by adding the justify-content-end class. The problem also occurred when applying the background color and the font color to the finished navigation, this was solved with value !important which might seem to be overused for this main part of a project to achieve the desired effect. 
+* **Navbar** solution borrowed from Boostrap showed several issues that were solved during the development of this application. The brand name was not displaying correctly on small screens, this was solved by using `media query only screen for max-width: 600px`. 
+* The navigation links to the individual sections showed a tendency to the left side, which was solved by adding the `justify-content-end` class. 
+* The problem also occurred when applying the background color and the font color to the finished navigation borrowed from Bootstrap solution, this was solved with `value !important` which might seem to be overused for this main part of a project to achieve the desired effect. 
+* There was also a problem with the automatic closing of the menu button, when after pressing the link it did not close properly and does not return to its place - [screenshot of issue](/assets/docs/navnotclosing.jpg). The solution was to use class `data-toggle="collapse"` and `data-target=". Navbar-collapse"` in the outer div.
 * The **home image** for the Home section has been changed several times during the design process. The first and main reason for this was that, from an aesthetic point of view, the photo is too colorful and distracting - [example of previous version](/assets/docs/toppicture.jpg). The first idea to introduce this photo was that it would refer to the main topic of designing a store for programmers and coffee lovers, but finally, after listening to users' opinions, the photo of the main page was changed to a warm and calm background referring to a standard coffee shop.
-* **Gallery** solution in the initial phase of the project was to use Slideshow/Carousel, but due to the lack of ability to use JavaScript, a simple solution was used. Container class was introduced to build the visual effect of displaying photos. However, the gallery was not displaying correctly on every device, this was solved by adjusting the size of the photos and adding a media query to the appropriate screen sizes.
+* **Gallery** solution in the initial phase of the project was to use Slideshow/Carousel, but due to the lack of ability to use JavaScript, a simple solution was used. Container class was introduced to build the visual effect of displaying photos. However, the gallery was not displaying correctly on every device, this was solved by adjusting the size of the photos and adding a `media query` to the appropriate screen sizes.
 
 # 7. Version Control
 
-**Git** - free and open-source distributed Version Control System was used to show tracking all changes during the coding process. 
+**Git** - free and open-source distributed **Version Control System** was used to show tracking all changes during the coding process. 
 Git add, Git commit, Git push commands were used to approve and store files in the repository. 
 
 # 8. Deployment
 
-This project was developed by using GitHub - a code hosting platform and Gitpod - an online Integrated Development Environment. There is no difference between the deployed version and the development version.
+This project was developed by using **GitHub** - a code hosting platform and **Gitpod** - an online Integrated Development Environment. There is no difference between the deployed version and the development version.
 The first step was to create a new "Repository" named Milestone Project 1 in GitHub. Then once opened in Gitpod the whole process started by creating a structure of files and then the very first boilerplate of code, then successively with time whole code structure. Next, the code was pushed to GitHub where was stored in my Repository. 
 ### Deployment using GitHub pages:
 * Navigate to the Git Hub Repository - **My Repository**
@@ -182,7 +185,7 @@ The first step was to create a new "Repository" named Milestone Project 1 in Git
 
 * Content
 
-The text content for this page was created by student Malgorzata Czerwonka (self-written) for a **non-existing place**, and for **educational purposes only**. Inspiration to create coffee quotes was borrowed from two sources:
+The text content for this page was created by student Malgorzata Czerwonka (self-written) for a **non-existing place**, and for **educational purposes only**. Inspiration to create coffee quotes was borrowed from sources:
 [**1**](https://www.goodhousekeeping.com/life/g26948562/funny-coffee-quotes/?slide=2) and 
 [**2**](https://www.amazon.com/MC2-ENERGY-MILK-COFFEE2-Birthday/dp/B06XZF67ZD)
 
